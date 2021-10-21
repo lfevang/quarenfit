@@ -23,6 +23,7 @@ import { PrestadorInserirComponent } from './prestador/prestador-inserir/prestad
 import { PrestadorAlterarComponent } from './prestador/prestador-alterar/prestador-alterar.component';
 import { PrestadorDeletarComponent } from './prestador/prestador-deletar/prestador-deletar.component';
 import { PrestadorListarComponent } from './prestador/prestador-listar/prestador-listar.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { PrestadorListarComponent } from './prestador/prestador-listar/prestador
     PrestadorInserirComponent,
     PrestadorAlterarComponent,
     PrestadorDeletarComponent,
-    PrestadorListarComponent
+    PrestadorListarComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
