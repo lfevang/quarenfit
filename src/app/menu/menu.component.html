@@ -1,4 +1,72 @@
 <app-cabecalho></app-cabecalho>
-<mat-card>
-  
-</mat-card>
+  <br>
+  if
+    <div class="conteudo">
+      <p>Parabéns, o mais difícil já foi feito, você começou...</p>
+      <p><b>O próximo passo é você agenadar um acompanhamento médico!</b></p>
+      <mat-card>
+        <p>Escolha um profissional que te entenda e atenda sua necessidade:</p>
+        <mat-accordion>
+          <mat-expansion-panel (opened)="panelOpenStateNutri = true"
+                              (closed)="panelOpenStateNutri = false">
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                Alimentação
+              </mat-panel-title>
+              <mat-panel-description>
+                <!-- Encontre o profissional de nutriçao ideal para você -->
+              </mat-panel-description>
+            </mat-expansion-panel-header>
+            <p>Cards de nutricionistas (DESENVOLVER)</p>
+          </mat-expansion-panel>
+        <mat-expansion-panel (opened)="panelOpenStateFis = true"
+                              (closed)="panelOpenStateFis = false">
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                Treinos
+              </mat-panel-title>
+              <mat-panel-description>
+                <!-- Encontre o profissional de educação física ideal para você -->
+              </mat-panel-description>
+            </mat-expansion-panel-header>
+            <p>Cards de educadores físicos (DESENVOLVER)</p>
+          </mat-expansion-panel>
+        </mat-accordion>
+      </mat-card>
+    </div>
+  <br>
+  else
+
+    <div class="conteudo">
+      <p><b>Olá, Fulanno</b></p>
+      <mat-card>
+        <p>Acompanhe seu desempenho</p>
+        <mat-accordion>
+          <mat-expansion-panel (opened)="panelOpenStateNutri = true"
+                                (closed)="panelOpenStateNutri = false">
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                  Alimentação
+                </mat-panel-title>
+                <mat-panel-description>
+                  <!-- Encontre o profissional de nutriçao ideal para você -->
+                </mat-panel-description>
+              </mat-expansion-panel-header>
+              <p>Cards de nutricionistas (DESENVOLVER)</p>
+          </mat-expansion-panel>
+          <mat-expansion-panel (opened)="panelOpenStateFis = true"
+                                (closed)="panelOpenStateFis = false">
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                  Treinos
+                </mat-panel-title>
+                <mat-panel-description>
+                  58 %
+                  <!-- Encontre o profissional de educação física ideal para você -->
+                </mat-panel-description>
+              </mat-expansion-panel-header>
+              <p>Cards de educadores físicos (DESENVOLVER)</p>
+          </mat-expansion-panel>
+        </mat-accordion>
+      </mat-card>
+    </div>

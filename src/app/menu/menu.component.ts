@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
 
+  panelOpenStateNutri = false;
+  panelOpenStateFis = false;
+
   constructor() { }
 
   ngOnInit(): void {
