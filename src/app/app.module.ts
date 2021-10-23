@@ -10,6 +10,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
+import {MatMenuModule} from '@angular/material/menu';
 
 import { AppComponent } from './app.component';
 import { PessoaComponent } from './pessoa/pessoa.component';
@@ -56,6 +57,8 @@ import { LoginComponent } from './login/login.component';
     MatCardModule,
     MatToolbarModule,
     MatExpansionModule,
+    MatMenuModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

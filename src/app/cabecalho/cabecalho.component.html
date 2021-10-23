@@ -1,1 +1,24 @@
-<mat-toolbar color="primary">QuarenFit</mat-toolbar>
+<mat-toolbar color="basic">
+  <img src='../assets/img/logo.png' width="300px" style="display: block; margin-left: auto; margin-right: auto; width: 200px;">
+  <span class="separador"></span>
+  <div class="button-container">
+    <button mat-mini-fab color="basic">
+      <mat-icon>search</mat-icon>
+    </button>
+  </div>
+  <div class="button-container">
+    <button mat-mini-fab [matMenuTriggerFor]="menu" color="basic">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item>
+        <mat-icon>person</mat-icon>
+        Perfil
+      </button>
+      <button mat-menu-item>
+        <mat-icon>exit_to_app</mat-icon>
+        Sair
+      </button>
+    </mat-menu>
+  </div>
+</mat-toolbar>
