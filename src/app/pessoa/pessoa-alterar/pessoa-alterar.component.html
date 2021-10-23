@@ -1,30 +1,31 @@
 <app-cabecalho></app-cabecalho>
 <div class="conteudo">
   <mat-card>
+    <form [formGroup]="form">
     <mat-form-field appearance="fill">
       <mat-label>Digite seu peso</mat-label>
-      <input matInput type="text" name="peso" required minlength="1" formControlName="peso">
+      <input matInput type="text" name="peso" required minlength="1">
       <mat-error>
           Digite um peso válido
       </mat-error>
     </mat-form-field>
     <mat-form-field appearance="fill">
       <mat-label>Digite seu e-mail</mat-label>
-      <input matInput type="text" name="email" required minlength="7" formControlName="email">
+      <input matInput type="text" name="email" required minlength="7">
       <mat-error>
           Digite um e-mail válido
       </mat-error>
     </mat-form-field>
     <mat-form-field appearance="fill">
       <mat-label>Digite seu telefone</mat-label>
-      <input matInput type="text" name="telefone" required minlength="8" formControlName="telefone">
+      <input matInput type="text" name="telefone" required minlength="8" >
       <mat-error>
           Digite um telefone válido
       </mat-error>
     </mat-form-field>
     <mat-form-field appearance="fill">
       <mat-label>Digite seu celular</mat-label>
-      <input matInput type="text" name="celular" required minlength="9" formControlName="celular">
+      <input matInput type="text" name="celular" required minlength="9">
       <mat-error>
           Digite um celular válido
       </mat-error>
@@ -33,7 +34,7 @@
       <p>Endereço</p>
       <mat-form-field appearance="fill">
         <mat-label>Digite o logradouro</mat-label>
-        <input matInput type="text" name="endereco" required minlength="" formControlName="endereco">
+        <input matInput type="text" name="endereco" required minlength="">
         <mat-error>
             Digite um logradouro válido
         </mat-error>
@@ -60,5 +61,6 @@
         <input matInput type="text" name="estado" required minlength="1" formControlName="estado">
       </mat-form-field>
     </mat-card>
+  </form>
   </mat-card>
 </div>

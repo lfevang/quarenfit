@@ -10,6 +10,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
 import {MatMenuModule} from '@angular/material/menu';
 
 import { AppComponent } from './app.component';
@@ -42,7 +43,7 @@ import { LoginComponent } from './login/login.component';
     PrestadorAlterarComponent,
     PrestadorDeletarComponent,
     PrestadorListarComponent,
-    LoginComponent
+    LoginComponent,
   ],
   imports: [
     AppRoutingModule,
@@ -58,7 +59,8 @@ import { LoginComponent } from './login/login.component';
     MatToolbarModule,
     MatExpansionModule,
     MatMenuModule,
-
+    ReactiveFormsModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
