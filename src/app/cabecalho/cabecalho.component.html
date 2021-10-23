@@ -1,5 +1,7 @@
 <mat-toolbar color="basic">
-  <img src='../assets/img/logo.png' width="300px" style="display: block; margin-left: auto; margin-right: auto; width: 200px;">
+  <a mat-menu-item routerLink="/menu">
+    <img src='../assets/img/logo.png' width="300px" style="display: block; margin-left: auto; margin-right: auto; width: 200px;">
+  </a>
   <span class="separador"></span>
   <div class="button-container">
     <button mat-mini-fab color="basic">
@@ -11,11 +13,11 @@
       <mat-icon>menu</mat-icon>
     </button>
     <mat-menu #menu="matMenu">
-      <a mat-menu-item routerLink="/alterarPerfil">
+      <a mat-menu-item routerLink="/perfil">
         <mat-icon>person</mat-icon>
         Perfil
       </a>
-      <a mat-menu-item>
+      <a mat-menu-item routerLink="/">
         <mat-icon>exit_to_app</mat-icon>
         Sair
       </a>

@@ -6,8 +6,8 @@ import { PessoaAlterarComponent } from "./pessoa/pessoa-alterar/pessoa-alterar.c
 
 const routes: Routes = [
     {path: '', component: LoginComponent},
-    {path: 'entrar', component: MenuComponent},
-    {path: 'alterarPerfil', component: PessoaAlterarComponent}
+    {path: 'menu', component: MenuComponent},
+    {path: 'perfil', component: PessoaAlterarComponent}
 ]
 
 @NgModule({
