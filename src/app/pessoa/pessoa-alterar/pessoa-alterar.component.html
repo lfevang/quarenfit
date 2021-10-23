@@ -1,1 +1,64 @@
-<p>pessoa-alterar works!</p>
+<app-cabecalho></app-cabecalho>
+<div class="conteudo">
+  <mat-card>
+    <mat-form-field appearance="fill">
+      <mat-label>Digite seu peso</mat-label>
+      <input matInput type="text" name="peso" required minlength="1" formControlName="peso">
+      <mat-error>
+          Digite um peso válido
+      </mat-error>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Digite seu e-mail</mat-label>
+      <input matInput type="text" name="email" required minlength="7" formControlName="email">
+      <mat-error>
+          Digite um e-mail válido
+      </mat-error>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Digite seu telefone</mat-label>
+      <input matInput type="text" name="telefone" required minlength="8" formControlName="telefone">
+      <mat-error>
+          Digite um telefone válido
+      </mat-error>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Digite seu celular</mat-label>
+      <input matInput type="text" name="celular" required minlength="9" formControlName="celular">
+      <mat-error>
+          Digite um celular válido
+      </mat-error>
+    </mat-form-field>
+    <mat-card>
+      <p>Endereço</p>
+      <mat-form-field appearance="fill">
+        <mat-label>Digite o logradouro</mat-label>
+        <input matInput type="text" name="endereco" required minlength="" formControlName="endereco">
+        <mat-error>
+            Digite um logradouro válido
+        </mat-error>
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <input matInput type="text" name="numero" required minlength="1" formControlName="numero">
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <input matInput type="text" name="complemento" required minlength="1" formControlName="complemento">
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <input matInput type="text" name="cep" required minlength="1" formControlName="cep">
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Digite o bairro</mat-label>
+        <input matInput type="text" name="bairro" required minlength="1" formControlName="bairro">
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Digite a cidade</mat-label>
+        <input matInput type="text" name="cidade" required minlength="1" formControlName="cidade">
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Digite a estado</mat-label>
+        <input matInput type="text" name="estado" required minlength="1" formControlName="estado">
+      </mat-form-field>
+    </mat-card>
+  </mat-card>
+</div>
