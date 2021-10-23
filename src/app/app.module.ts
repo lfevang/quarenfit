@@ -27,6 +27,7 @@ import { PrestadorAlterarComponent } from './prestador/prestador-alterar/prestad
 import { PrestadorDeletarComponent } from './prestador/prestador-deletar/prestador-deletar.component';
 import { PrestadorListarComponent } from './prestador/prestador-listar/prestador-listar.component';
 import { LoginComponent } from './login/login.component';
+import { NovaSenhaComponent } from './nova-senha/nova-senha.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +45,7 @@ import { LoginComponent } from './login/login.component';
     PrestadorDeletarComponent,
     PrestadorListarComponent,
     LoginComponent,
+    NovaSenhaComponent,
   ],
   imports: [
     AppRoutingModule,
