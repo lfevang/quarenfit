@@ -1,5 +1,6 @@
-<div class="conteudo">
-  <mat-card>
+<app-cabecalho></app-cabecalho>
+<mat-card>
+    <p><b>Dê o seu primeiro passo realizando o seu cadastro: </b></p>
     <form [formGroup]="form">
     <mat-form-field appearance="fill">
       <mat-label>Digite seu peso</mat-label>
@@ -29,6 +30,8 @@
           Digite um celular válido
       </mat-error>
     </mat-form-field>
+    <br />
+    <br />
     <mat-card>
       <p>Endereço</p>
       <mat-form-field appearance="fill">
@@ -62,4 +65,3 @@
     </mat-card>
   </form>
   </mat-card>
-</div>

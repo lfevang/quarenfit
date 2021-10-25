@@ -2,10 +2,10 @@
   <br>
   if
     <div class="conteudo">
-      <p>Parabéns, o mais difícil já foi feito, você começou...</p>
-      <p><b>O próximo passo é você agendar um acompanhamento médico!</b></p>
+      <p>Parabéns. Você já conseguiu completar a etapa mais díficil: começar!</p>
+      <p><b>O próximo passo é agendar um acompanhamento médico!</b></p>
       <mat-card>
-        <p>Escolha um profissional que te entenda e atenda sua necessidade:</p>
+        <p>Escolha um profissional que irá te acompanhar e entender suas necessidades:</p>
         <mat-accordion>
           <mat-expansion-panel (opened)="panelOpenStateNutri = true"
                               (closed)="panelOpenStateNutri = false">
@@ -17,7 +17,81 @@
                 <!-- Encontre o profissional de nutriçao ideal para você -->
               </mat-panel-description>
             </mat-expansion-panel-header>
-            <p>Cards de nutricionistas (DESENVOLVER)</p>
+            <p>Confira nossos nutricionistas disponíveis: </p>
+            <div class="row">
+              <div class="col-4">
+                <mat-card class = "nutri">
+                  <mat-card-title-group>
+                    <mat-card-title>Livia Cardoso</mat-card-title>
+                    <mat-card-subtitle>Nutricionista</mat-card-subtitle>
+                    <img  mat-card-md-image  src = "../assets/img/medico (2).png">
+                    </mat-card-title-group>
+                    <mat-card-content>
+                      Descrição do profissional
+                    </mat-card-content>
+                </mat-card>
+              </div>
+              <div class = "col-4">
+                <mat-card class = "nutri">
+                  <mat-card-title-group>
+                    <mat-card-title>Camila Sousa</mat-card-title>
+                    <mat-card-subtitle>Nutricionista</mat-card-subtitle>
+                    <img  mat-card-md-image  src = "../assets/img/medico (1).png">
+                    </mat-card-title-group>
+                    <mat-card-content>
+                      Descrição do profissional
+                    </mat-card-content>
+                </mat-card>
+              </div>
+              <div class = "col-4">
+                <mat-card class = "nutri">
+                  <mat-card-title-group>
+                    <mat-card-title>Gustavo Barbosa</mat-card-title>
+                    <mat-card-subtitle>Nutricionista</mat-card-subtitle>
+                    <img  mat-card-md-image  src = "../assets/img/medico.png">
+                    </mat-card-title-group>
+                    <mat-card-content>
+                      Descrição do profissional
+                    </mat-card-content>
+                </mat-card>
+              </div>
+              <div class = "col-4">
+                <mat-card class = "nutri">
+                  <mat-card-title-group>
+                    <mat-card-title>Danilo Cavalcanti</mat-card-title>
+                    <mat-card-subtitle>Nutricionista</mat-card-subtitle>
+                    <img  mat-card-md-image  src = "../assets/img/medico (3).png">
+                    </mat-card-title-group>
+                    <mat-card-content>
+                      Descrição do profissional
+                    </mat-card-content>
+                </mat-card>
+              </div>
+              <div class = "col-4">
+                <mat-card class = "nutri">
+                  <mat-card-title-group>
+                    <mat-card-title>Raissa Azevedo</mat-card-title>
+                    <mat-card-subtitle>Nutricionista</mat-card-subtitle>
+                    <img  mat-card-md-image  src = "../assets/img/medico (4).png">
+                    </mat-card-title-group>
+                    <mat-card-content>
+                     Descrição do profissional
+                    </mat-card-content>
+                </mat-card>
+              </div>
+              <div class = "col-4">
+                <mat-card class = "nutri">
+                  <mat-card-title-group>
+                    <mat-card-title>Sophia Castro</mat-card-title>
+                    <mat-card-subtitle>Nutricionista</mat-card-subtitle>
+                    <img  mat-card-md-image  src = "../assets/img/medico (5).png">
+                    </mat-card-title-group>
+                    <mat-card-content>
+                      Descrição do profissional
+                    </mat-card-content>
+                </mat-card>
+              </div>
+            </div>
           </mat-expansion-panel>
         <mat-expansion-panel (opened)="panelOpenStateFis = true"
                               (closed)="panelOpenStateFis = false">
@@ -29,7 +103,81 @@
                 <!-- Encontre o profissional de educação física ideal para você -->
               </mat-panel-description>
             </mat-expansion-panel-header>
-            <p>Cards de educadores físicos (DESENVOLVER)</p>
+            <p>Confira nossos profissionais de educação física disponíveis:</p>
+            <div class="row">
+              <div class="col-4">
+                <mat-card class = "nutri">
+                  <mat-card-title-group>
+                    <mat-card-title>Larissa Almeida</mat-card-title>
+                    <mat-card-subtitle>Personal Trainer</mat-card-subtitle>
+                    <img  mat-card-md-image  src = "../assets/img/edfisica.png">
+                    </mat-card-title-group>
+                    <mat-card-content>
+                      Descrição do profissional
+                    </mat-card-content>
+                </mat-card>
+              </div>
+              <div class="col-4">
+                <mat-card class = "nutri">
+                  <mat-card-title-group>
+                    <mat-card-title>Enzo Fernandes</mat-card-title>
+                    <mat-card-subtitle>Personal Trainer</mat-card-subtitle>
+                    <img  mat-card-md-image  src = "../assets/img/edfisica1.png">
+                    </mat-card-title-group>
+                    <mat-card-content>
+                      Descrição do profissional
+                    </mat-card-content>
+                </mat-card>
+              </div>
+              <div class="col-4">
+                <mat-card class = "nutri">
+                  <mat-card-title-group>
+                    <mat-card-title>Alice Barros</mat-card-title>
+                    <mat-card-subtitle>Personal Trainer</mat-card-subtitle>
+                    <img  mat-card-md-image  src = "../assets/img/edfisica2.png">
+                    </mat-card-title-group>
+                    <mat-card-content>
+                      Descrição do profissional
+                    </mat-card-content>
+                </mat-card>
+              </div>
+              <div class="col-4">
+                <mat-card class = "nutri">
+                  <mat-card-title-group>
+                    <mat-card-title>Nicolas Gomes</mat-card-title>
+                    <mat-card-subtitle>Personal Trainer</mat-card-subtitle>
+                    <img  mat-card-md-image  src = "../assets/img/edfisica3.png">
+                    </mat-card-title-group>
+                    <mat-card-content>
+                      Descrição do profissional
+                    </mat-card-content>
+                </mat-card>
+              </div>
+              <div class="col-4">
+                <mat-card class = "nutri">
+                  <mat-card-title-group>
+                    <mat-card-title>Brenda Correia</mat-card-title>
+                    <mat-card-subtitle>Personal Trainer</mat-card-subtitle>
+                    <img  mat-card-md-image  src = "../assets/img/edfisica4.png">
+                    </mat-card-title-group>
+                    <mat-card-content>
+                      Descrição do profissional
+                    </mat-card-content>
+                </mat-card>
+              </div>
+              <div class="col-4">
+                <mat-card class = "nutri">
+                  <mat-card-title-group>
+                    <mat-card-title>Luís Araujo</mat-card-title>
+                    <mat-card-subtitle>Personal Trainer</mat-card-subtitle>
+                    <img  mat-card-md-image  src = "../assets/img/ed.fisica5.png">
+                    </mat-card-title-group>
+                    <mat-card-content>
+                      Descrição do profissional
+                    </mat-card-content>
+                </mat-card>
+              </div>
+            </div>
           </mat-expansion-panel>
         </mat-accordion>
       </mat-card>
@@ -38,9 +186,9 @@
   else
 
     <div class="conteudo">
-      <p><b>Olá, Fulanno</b></p>
+      <p><b>Olá, @user</b></p>
       <mat-card>
-        <p>Acompanhe seu desempenho</p>
+        <p>Acompanhe o seu desempenho!</p>
         <mat-accordion>
           <mat-expansion-panel (opened)="panelOpenStateNutri = true"
                                 (closed)="panelOpenStateNutri = false">
@@ -52,7 +200,14 @@
                   <!-- Encontre o profissional de nutriçao ideal para você -->
                 </mat-panel-description>
               </mat-expansion-panel-header>
-              <p>Cards de nutricionistas (DESENVOLVER)</p>
+              <p>Sua dieta</p>
+              <mat-card class="dieta">
+                <mat-card-title>Alimentos</mat-card-title>
+                <mat-card-content>
+                  <p>dieta blablabla</p>
+                  <p>blablabla</p>
+                </mat-card-content>
+              </mat-card>
           </mat-expansion-panel>
           <mat-expansion-panel (opened)="panelOpenStateFis = true"
                                 (closed)="panelOpenStateFis = false">
