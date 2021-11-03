@@ -22,3 +22,34 @@ p{
   font: Noto Sans, sans-serif;
   font-size: 20px;
 }
+
+table {
+  width: 100%;
+}
+.mat-column-item {
+  width: 32px;
+  border-right: 1px solid currentColor;
+  padding-right: 24px;
+  text-align: center;
+}
+.mat-column-descricao {
+  padding-left: 16px;
+  border-right: 1px solid currentColor;
+  /* font-size: 20px; */
+}
+
+.mat-column-quantidade {
+  /* font-style: italic; */
+  width: 32px;
+  text-align: center;
+  padding-right: 24px;
+  border-right: 1px solid currentColor;
+  justify-content: center;
+}
+
+.mat-column-horario {
+  width: 100px;
+  text-align: center;
+  font-weight: bold;
+
+}

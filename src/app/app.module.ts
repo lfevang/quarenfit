@@ -28,6 +28,7 @@ import { PrestadorDeletarComponent } from './prestador/prestador-deletar/prestad
 import { PrestadorListarComponent } from './prestador/prestador-listar/prestador-listar.component';
 import { LoginComponent } from './login/login.component';
 import { NovaSenhaComponent } from './nova-senha/nova-senha.component';
+import { MatTableModule } from '@angular/material/table' ;
 
 @NgModule({
   declarations: [
@@ -63,6 +64,7 @@ import { NovaSenhaComponent } from './nova-senha/nova-senha.component';
     MatMenuModule,
     ReactiveFormsModule,
     FormsModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]

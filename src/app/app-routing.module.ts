@@ -5,12 +5,13 @@ import { MenuComponent } from "./menu/menu.component";
 import { NovaSenhaComponent } from "./nova-senha/nova-senha.component";
 import { PessoaAlterarComponent } from "./pessoa/pessoa-alterar/pessoa-alterar.component";
 import { PessoaInserirComponent } from "./pessoa/pessoa-inserir/pessoa-inserir.component";
+import { PessoaListarComponent } from "./pessoa/pessoa-listar/pessoa-listar.component";
 
 const routes: Routes = [
     {path: '', component: LoginComponent},
     {path: 'menu', component: MenuComponent},
     {path: 'esqueciSenha', component: NovaSenhaComponent},
-    {path: 'perfil', component: PessoaAlterarComponent},
+    {path: 'perfil', component: PessoaListarComponent},
     {path: 'inserirPessoa', component: PessoaInserirComponent}
 ]
 
